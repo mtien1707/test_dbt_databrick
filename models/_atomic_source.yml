@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: ead_atomic
+    description: A clone of a Databricks application database.
+    database: fss 
+    schema: ead_atomic
+    tables:
+      - name: cl_val
+
+      - name: cl_scm
+
+      - name: card_txn_smy
+  - name: test
+    description: A clone of a Databricks application database.
+    database: fss 
+    schema: ead_datamart
+    tables:
+      - name: demo
+
+
+# sources:
+#   - name: redshift_awm
+#     description: A clone of a Databricks application database.
+#     catalog: redshift   
+#     schema: tiencm
+#     config:
+#       enabled: true
+#     tables:
+#       - name: cl_val
+#       - name: cl_scm
+
+
+    

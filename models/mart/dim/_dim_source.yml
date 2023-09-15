@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: redshift_tiencm
+    description: A clone of a Databricks application database.
+    database: redshift 
+    schema: tiencm
+    tables: 
+      - name: card_txn_smy
